@@ -33,7 +33,7 @@ function Titulo(props) {
 // export default HomePage
 
 export default function PaginaInicial() {
-   //const username = 'alinemelry';
+  // const username = 'paes';
   const [username, setUsername] = React.useState('alinemelry');
   const roteamento = useRouter();
 
@@ -69,7 +69,7 @@ export default function PaginaInicial() {
               infosDoEvento.preventDefault();
               console.log('Alguém submeteu o form');
               roteamento.push('/chat');
-              // window.location.href = '/chat';
+              //window.location.href = '/chat';
             }}
             styleSheet={{
               display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
